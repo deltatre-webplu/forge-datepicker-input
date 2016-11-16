@@ -8,6 +8,9 @@
 
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
 
+    <link rel="import" href="../../moment-element/moment-import.html">
+    <link rel="import" href="../../moment-element/moment-with-locales-import.html">
+
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
     <link rel="import" href="../forge-datepicker-input.html">
@@ -22,7 +25,7 @@
         <template>
           <forge-datepicker-input
             value=""
-            label="Fifa Date"
+            label="My Custom Date Field"
             field-name="MyFieldName"
             entity='{"entityId":"testEntityId","id":"testId","type":"testType"}'
             schema='{"type":"string","description":"date descr","title":"Fifa Date","localized":true,"extended-type":"forge-datepicker-input","tagextradata":true}'></forge-datepicker-input>

@@ -4,7 +4,7 @@
   "main": "forge-datepicker-input.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
-    "paper-date-picker": "polymer-paper-date-picker#^1.2.0",
+    "paper-date-picker": "https://github.com/deltatre-webplu/paper-date-picker.git#master",
     "paper-input": "^1.1.20",
     "paper-icon-button": "^1.1.3",
     "iron-icons": "^1.1.3",
@@ -15,6 +15,7 @@
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
     "web-component-tester": "^4.0.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
+    "moment-element": "bendavis78/moment-element#^1.1.1"
   }
 }
